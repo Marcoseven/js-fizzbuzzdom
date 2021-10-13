@@ -1,0 +1,38 @@
+/* common_general_rules */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* /common_general_rules */
+
+body {
+	height: auto;
+	margin: auto;
+	background-color: #183a4a;
+	width: 90%;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	padding: 3rem 0;
+	font-size: 80px;
+}
+
+.list {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: calc(100% / 8);
+	height: 170.85px;
+	background-color: #3d88ae;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0.5rem;
+}
