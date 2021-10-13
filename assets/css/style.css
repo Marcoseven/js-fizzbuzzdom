@@ -35,12 +35,30 @@ h1 {
 }
 
 .box {
+	background-color: #3d88ae;
+}
+
+.box,
+.box_3,
+.box_5,
+.box_15 {
 	width: calc(100% / 8);
 	height: 170.85px;
-	background-color: #3d88ae;
 	font-size: 25px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin: 0.5rem;
+}
+
+.box_3 {
+	background-color: #61d2a4;
+}
+
+.box_5 {
+	background-color: #f9d277;
+}
+
+.box_15 {
+	background-color: #de5471;
 }
