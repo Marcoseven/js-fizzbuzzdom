@@ -12,3 +12,4 @@ for (let i = 1; i <= 100; i++) {
 	const element = `<li class="box"> ${i}</li>`;
 	list.innerHTML += element;
 }
+console.log("Fine");
